@@ -16,7 +16,7 @@ pip install Pillow requests beautifulsoup4
 打开目录下<kbd>config.json</kbd>文件改成自己学校的即可
 ```json
 {
-    "host": "你学校的英华慕课网址"
+    "host": "你学校的英华慕课网址，最后记得加斜杠/"
 }
 ```
 ## 运行
