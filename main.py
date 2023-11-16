@@ -1,9 +1,14 @@
 # 本文件用于登陆英华课堂，获取课程列表，选择课程，复制最新评论，发送评论
+import json
 import time
 import fuc
 
-host = 'https://zswxy.yinghuaonline.com'
-
+# 读取当前目录下的config.json 中的"host"的值
+host = ''
+# Open the config.json file
+with open('config.json', 'r') as file:
+    # Load the contents of the file
+    config = json.load(file)
 
 def main():
     global course_id

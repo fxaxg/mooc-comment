@@ -12,5 +12,12 @@ cd mooc-comment
 ```bash
 pip install Pillow requests beautifulsoup4
 ```
+### 3.修改英华学堂网站地址
+打开目录下<kbd>config.json</kbd>文件改成自己学校的即可
+```json
+{
+    "host": "你学校的英华慕课网址"
+}
+```
 ## 运行
 从main.py运行即可
