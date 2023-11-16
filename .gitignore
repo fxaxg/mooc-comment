@@ -75,3 +75,6 @@ dist/main/_internal/certifi/cacert.pem
 dist/main/_internal/certifi/py.typed
 dist/main/_internal/charset_normalizer/md__mypyc.cp311-win_amd64.pyd
 dist/main/_internal/charset_normalizer/md.cp311-win_amd64.pyd
+dist/config.json
+dist/config.json
+dist/mooc_comment_v1.0.1.zip
