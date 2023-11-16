@@ -24,7 +24,7 @@ def getVerificationCode(host):
 
         # 将图片比例放大5倍
         img = Image.open(file_path)
-        img = img.resize((img.width * 5, img.height * 5), Image.ANTIALIAS)
+        img = img.resize((img.width * 5, img.height * 5))
         img.save(file_path)
 
         # print(f'图片已保存到 {file_path}')

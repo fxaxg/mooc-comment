@@ -10,7 +10,7 @@ cd mooc-comment
 ```
 ### 2.安装依赖库
 ```bash
-pip install os re time Pillow requests json
+pip install Pillow requests beautifulsoup4
 ```
 ## 运行
 从main.py运行即可

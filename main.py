@@ -47,6 +47,8 @@ def main():
         print("> [信息]：登陆成功！")
     else:
         print("> [错误]：登陆失败：" + login_result.get('msg'))
+        print("按回车键退出...")
+        input()  # 等待用户输入任意字符
         exit()
 
     # 获取课程列表
@@ -106,7 +108,7 @@ def main():
 
         i += 1
 
-    print("按任意键退出...")
+    print("按回车键退出...")
     input()  # 等待用户输入任意字符
 
 
