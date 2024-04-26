@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mooc-comment"
+version = "0.1.0"
+description = ""
+authors = ["tobacco <chentubai@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pillow = "^10.3.0"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
